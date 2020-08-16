@@ -7,12 +7,12 @@ const Menu = () => {
 	return (
 		<div className='sidenav'>
 			<Button iconName='fas fa-plus-circle' text='CTA Button' />
-			<NavLink iconName='fas fa-th-large' text='Home' />
-			<NavLink iconName='fas fa-user-circle' text='User' />
-			<NavLink iconName='fas fa-tachometer-alt' text='Weather' />
-			<NavLink iconName='fas fa-chart-pie' text='Charts' />
-			<NavLink iconName='fas fa-info-circle' text='Help' />
-			<NavLink iconName='fas fa-sign-out-alt' text='Log Out' />
+			<NavLink iconName='fas fa-th-large' text='Home' link='/' />
+			<NavLink iconName='fas fa-user-circle' text='User' link='/user'/>
+			<NavLink iconName='fas fa-tachometer-alt' text='Weather' link='/weather' />
+			<NavLink iconName='fas fa-chart-pie' text='Charts' link='/charts' />
+			<NavLink iconName='fas fa-info-circle' text='Help' link='/help' />
+			<NavLink iconName='fas fa-sign-out-alt' text='Log Out' link='/log-out' />
 		</div>
 	);
 };

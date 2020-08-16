@@ -1,14 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './styles/navLink.css';
 
-const NavLinks = ({ iconName, text }) => {
+const NavLinks = ({ iconName, text, link }) => {
 	return (
-		<div className='Nav-link'>
-			<div className='container'>
-				<i class={iconName}></i>
-				<p>{text}</p>
+		<Link to={link}>
+			<div className='Nav-link'>
+				<div className='container'>
+					<i class={iconName}></i>
+					<p>{text}</p>
+				</div>
 			</div>
-		</div>
+		</Link>
 	);
 };
 
