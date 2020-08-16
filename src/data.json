@@ -1,0 +1,40 @@
+{
+	"navLinks": [
+		{
+			"key": "home",
+			"iconName": "fas fa-th-large",
+			"text": "Home",
+			"link": "/"
+		},
+		{
+			"key": "user",
+			"iconName": "fas fa-user-circle",
+			"text": "User",
+			"link": "/user"
+		},
+		{
+			"key": "weather",
+			"iconName": "fas fa-tachometer-alt",
+			"text": "Weather",
+			"link": "/weather"
+		},
+		{
+			"key": "charts",
+			"iconName": "fas fa-chart-pie",
+			"text": "Charts",
+			"link": "/charts"
+		},
+		{
+			"key": "help",
+			"iconName": "fas fa-info-circle",
+			"text": "Help",
+			"link": "/help"
+		},
+		{
+			"key": "logout",
+			"iconName": "fas fa-sign-out-alt",
+			"text": "Log out",
+			"link": "/log-out"
+		}
+	]
+}
