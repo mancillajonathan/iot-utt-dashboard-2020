@@ -18,3 +18,10 @@
 .container i {
 	margin-right: 15px;
 }
+
+.Nav-link:hover {
+	background-color: lightslategray;
+	opacity: 1;
+	transition: 0.5s;
+	cursor: pointer;
+}

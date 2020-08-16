@@ -21,3 +21,7 @@
 .container i {
 	margin-right: 15px;
 }
+
+.Nav-button:hover {
+	cursor: pointer;
+}

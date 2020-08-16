@@ -1,12 +1,12 @@
 import React from 'react';
 import './styles/navLink.css';
 
-const NavLinks = () => {
+const NavLinks = ({ iconName, text }) => {
 	return (
 		<div className='Nav-link'>
 			<div className='container'>
-				<i class='fas fa-th-large'></i>
-				<p>Nav link</p>
+				<i class={iconName}></i>
+				<p>{text}</p>
 			</div>
 		</div>
 	);

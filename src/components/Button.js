@@ -1,12 +1,12 @@
 import React from 'react';
 import './styles/button.css';
 
-const Button = () => {
+const Button = ({ iconName, text }) => {
 	return (
 		<div className='Nav-button'>
 			<div className='container'>
-				<i class='fas fa-th-large'></i>
-				<p>Nav link</p>
+				<i class={iconName}></i>
+				<p>{text}</p>
 			</div>
 		</div>
 	);
