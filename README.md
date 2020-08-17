@@ -7,7 +7,8 @@ In the project directory, you can run:
 ### `Live Demo`
 
 Runs the app in this website.<br />
-Open [https://iot-utt-dashboard.vercel.app/](https://iot-utt-dashboard.vercel.app/) to view it in the browser.
+
+<!-- Open [https://iot-utt-dashboard.vercel.app/](https://iot-utt-dashboard.vercel.app/) to view it in the browser. -->
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
