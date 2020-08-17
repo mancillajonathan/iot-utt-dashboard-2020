@@ -1,0 +1,64 @@
+.userProfile__container {
+	display: flex;
+	justify-content: center;
+	background-color: #272b2f;
+	width: 500px;
+	height: auto;
+	margin: 20px auto;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.userProfile__image-container {
+	min-width: 50px;
+	min-height: 50px;
+	width: 60px;
+	height: 60px;
+	background-color: aliceblue;
+	border-radius: 50%;
+}
+
+.userProfile__title-container {
+	margin-left: 15px;
+	height: auto;
+}
+
+h2 {
+	margin: 0;
+}
+
+.userProfile__job-title {
+	margin: 5px 0;
+	color: #21bf73;
+	opacity: 0.8;
+}
+
+.userProfile__buttons-container {
+	display: flex;
+	justify-content: space-around;
+	background-color: #272b2f;
+	width: 500px;
+	height: auto;
+	margin: 10px auto;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.userProfile__buttons-container span {
+	margin-left: 10px;
+}
+
+.buttons {
+	display: flex;
+	align-items: center;
+	padding: 0 8px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+.buttons:hover {
+	background-color: lightslategray;
+	opacity: 1;
+	transition: 0.4s ease-in;
+	cursor: pointer;
+}
