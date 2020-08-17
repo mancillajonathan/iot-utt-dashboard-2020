@@ -36,5 +36,10 @@
 			"text": "Log out",
 			"link": "/log-out"
 		}
-	]
+	],
+	"userInfo": {
+		"name": "Jhonnn Smithhh",
+		"role": "Admin",
+		"profilePhoto": ""
+	}
 }
