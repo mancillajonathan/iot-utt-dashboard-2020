@@ -19,6 +19,7 @@
 }
 
 .userProfile__title-container {
+	text-align: start;
 	margin-left: 15px;
 	height: auto;
 }
@@ -29,8 +30,12 @@ h2 {
 
 .userProfile__job-title {
 	margin: 5px 0;
-	color: #21bf73;
 	opacity: 0.8;
+}
+
+.userProfile__job-title i {
+	margin-left: 5px;
+	color: #21bf73;
 }
 
 .userProfile__buttons-container {
@@ -46,6 +51,11 @@ h2 {
 
 .userProfile__buttons-container span {
 	margin-left: 10px;
+}
+
+.userProfile__image-container img {
+	width: 100%;
+	border-radius: 50%;
 }
 
 .buttons {
